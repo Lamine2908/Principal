@@ -1,0 +1,53 @@
+<!Doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Inscription</title>
+    <style>
+        
+    </style>
+</head>
+<body class="inscription">
+	<br>
+	<h1>BIENVENUE DANS LA PAGE D' INSCRIPTION</h1>
+	<h5>NB : SEULS LES APPRENANTS DE L' ISEP-AT SONT AUTORISÉS Á S' INSCRIRE.</h5>
+
+    <form>
+        <label for="nom">Nom :</label><br>
+        <input type="text" id="nom" name="nom" required><br><br>
+        
+        <label for="prenom">Prénom :</label><br>
+        <input type="text" id="prenom" name="prenom" required><br><br>
+
+        <label for="filiere">FILIERE :</label><br>
+        <select id="filiere" name="filiere" required><br><br>
+
+        	<option value="informatique">Informatique</option><br>
+        	<option value="informatique">Mécanique</option>
+        </select><br></br>
+        <label for="metier">Métier :</label><br>
+        <select id="metier" name="metier" required><br><br>
+        	<option value="abd">ABD</option>
+        	<option value="abd">APD</option>
+        	<option value="abd">DFE</option>
+        	<option value="abd">DBE</option>
+        </select><br></br>
+        <label for="email">Email professionnel:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="telephone">Téléphone :</label><br>
+        <input type="tel" id="telephone" name="telephone" required><br><br>
+        
+        <label for="date_naissance">Date de Naissance :</label><br>
+        <input type="date" id="date_naissance" name="date_naissance" required><br><br>
+        
+        <label for="adresse">Adresse :</label><br></br>
+        <textarea id="adresse" name="adresse" required></textarea><br><br>
+        
+        <input type="submit" value="Soumettre">
+    </form>
+
+</body>
+</html>
